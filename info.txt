@@ -10,3 +10,13 @@ git push -u origin main
 git remote add origin https://github.com/nizambd310/customer-segmentation.git
 git branch -M main
 git push -u origin main
+
+
+
+
+-   import necessary modules
+-   read the datasets
+-   check the null values using info() function
+-   drop null values using notna() function through pandas query
+-   check for duplicates
+-   drop duplicates both customer id and country
